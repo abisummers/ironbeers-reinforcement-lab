@@ -1,0 +1,35 @@
+/*
+white: #F7F9F9;
+light-blue: #2081C3;
+dark-blue: #0A2C42;
+grey: rgba(145, 145, 145, 0.481);
+font-family: Arial, Helvetica, sans-serif
+*/
+nav {
+  background-color: #2081c3;
+}
+nav a {
+  color: #f7f9f9;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #0a2c42;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -4;
+}
+footer p {
+  color: white;
+}
+
+.img-beer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-beers {
+  display: flex;
+  justify-content: center;
+}

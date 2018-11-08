@@ -1,6 +1,7 @@
 <div>
 
-
+  {{!-- We created a partial because all the data we display will be the same for each beer --}}
+  {{!-- we need to use 'this' because we are looping over the beers --}}
 
   <img src="{{this.image_url}}" alt="">
   <p>{{this.name}}</p>

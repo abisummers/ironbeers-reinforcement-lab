@@ -1,4 +1,10 @@
 <div>
+  {{!-- here, we are accessing the beerPartial. --}}
+  {{!-- We created a partial because all the data we display will be the same for each beer --}}
+  {{!-- you need to put beers here (we defined this in the URL) --}}
+  {{!-- for each beer, we will loop over it and display some data that you've decided in the beerPartials --}}
+
+
   {{#each beers}}
 
   {{> beerPartial this}}
